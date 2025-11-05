@@ -419,7 +419,7 @@ const Register = () => {
 
   // 🔹 Google Signup (OAuth Redirect)
   const handleGoogleSignup = () => {
-    const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+    const baseURL = 'https://doctors-2g6m.onrender.com';
     window.location.href = `${baseURL}/api/auth/google?userType=${formData.userType}`;
   };
 
