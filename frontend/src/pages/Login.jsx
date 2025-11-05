@@ -267,7 +267,7 @@ const Login = () => {
       alert('Please select your role before continuing.');
       return;
     }
-    window.location.href = `http://localhost:5000/api/auth/google?userType=${selectedRole}`;
+    window.location.href = `https://doctors-2g6m.onrender.com/api/auth/google?userType=${selectedRole}`;
   };
 
   return (
