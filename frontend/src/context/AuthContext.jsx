@@ -6,7 +6,7 @@ import axios from 'axios';
 const AuthContext = createContext();
 
 // Configure axios defaults
-const API_URL =  'http://localhost:5000/api';
+const API_URL =  'https://doctors-2g6m.onrender.com/api';
 
 axios.defaults.baseURL = API_URL;
 axios.defaults.withCredentials = true;
